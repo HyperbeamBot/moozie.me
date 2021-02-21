@@ -1,13 +1,144 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
         <title>Moozie</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
         <style>
+            * {
+                font-family: 'Montserrat', sans-serif;
+            }
+
             body {
-                background: rgb(28,28,28);
+                background: url('wave.svg') no-repeat bottom rgb(28,28,28);
+            }
+
+            header {
+                margin: 10px;
+                display: flex;
+            }
+            
+            .logo {
+                color: #00a2ff;
+                font-weight: 800;
+                font-size: 40px;
+            }
+
+            nav {
+                flex: 1;
+                margin-top: 16px;
+                margin-left: 20px;
+            }
+
+            .nav {
+                color: white;
+                font-weight: 800;
+                text-transform: uppercase;
+                margin: 0 10px;
+            }
+
+            .nav:hover {
+                opacity: 0.8;
+                cursor: pointer;
+            }
+
+            .spacer {
+                flex-grow: 1;
+            }
+
+            .right {
+                text-align: right;
+            }
+
+            content {
+                display: block;
+                text-align: center;
+                margin-top: 5%;
+            }
+
+            content div {
+                flex: 1;
+                margin: 0 auto;
+                color: white;
+                max-width: 500px;
+            }
+
+            .face {
+                border-radius: 50%;
+                width: 75px;
+                margin-bottom: 15px;
+            }
+            
+            .name {
+                color: white;
+                font-weight: 800;
+                font-size: 30px;
+                margin-bottom: 15px;
+                display: block;
+            }
+
+            .description {
+                color: #00a2ff;
+                font-weight: 800;
+                font-size: 16px;
+                display: block;
+                margin-bottom: 15px;
+            }
+
+            .button {
+                background: #00a2ff;
+                border-radius: 10px;
+                color: white;
+                padding: 10px;
+                margin: 20px 120px 0 120px;
+                font-weight: 800;
+                display: block;
+            }
+
+            .textbutton {
+                float: left;
+                line-height: 35px;
+                margin-left: 10px;
+            }
+
+            .svg {
+                float: left;
+                width: 40px;
+            }
+
+            .buttoncontent {
+                width: 225px;
+                margin: 0 auto;
+                text-align: center;
             }
         </style>
     </head>
     <body>
-        Hello Hugo!
+        <header>
+            <span class="logo">MOOZIE</span>
+            <nav>
+                <span class="nav">Commandes</span>
+                <span class="nav">Support</span>
+            </nav>
+            <div class="spacer"></div>
+            <nav class="right">
+                <span class="nav">EN</span>
+                <span class="nav">FR</span>
+            </nav>
+        </header>
+        <content>
+            <div>
+                <img class="face" src="face.png">
+                <span class="name">MOOZIE</span>
+                <span class="description">CREE LE MEILLEUR SERVEUR DISCORD</span>
+                <span class="button">
+                    <div class="buttoncontent">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240" style="fill: white;" class="svg"><path d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"></path><path d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"></path></svg>
+                        <span class="textbutton">AJOUTE A DISCORD</span>
+                        <div style="clear:both"></div>
+                    </div>
+                </span>
+            </div>
+        </content>
     </body>
 </html>
