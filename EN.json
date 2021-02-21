@@ -1,8 +1,6 @@
-{
-    "menu": [{
-        "commandes": "Commands",
-        "support": "Support"
-    }],
-    "home_button_add": "ADD TO DISCORD",
-    "home_description": "TRUC MACHIN YOLO IN ENGLISH"    
-}
+[
+    [{"name": "commandes"},{"text": "Commands"}],
+    [{"name": "support"},{"text": "Support"}],
+    [{"name": "home_button_add"},{"text": "ADD TO DISCORD"}],
+    [{"name": "home_description"},{"text": "TRUC MACHIN YOLO IN ENGLISH"}],
+]
