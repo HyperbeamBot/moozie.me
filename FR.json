@@ -1,8 +1,20 @@
 {
-    "menu": [{
-        "commandes": "Commandes",
-        "support": "Support"
-    }],
-    "home_button_add": "AJOUTER A DISCORD",
-    "home_description": "TRUC MACHIN YOLO EN FRANCAIS"    
+    "lang": [
+          {
+             "name": "commandes",
+             "text": "Commandes"
+          },
+          {
+            "name": "support",
+            "text": "Support"
+          },
+          {
+            "name": "home_button_add",
+            "text": "AJOUTER A DISCORD"
+          },
+          {
+            "name": "home_description",
+            "text": "TRUC MACHIN YOLO EN FRANCAIS"
+          }
+       ]
 }

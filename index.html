@@ -12,16 +12,16 @@
         <header>
             <span class="logo">MOOZIE</span>
             <nav>
-                <span class="nav">Commandes</span>
-                <a href="https://discord.com/invite/mTDrbTcxUP" target="_blank"><span class="nav">Support</span></a>
+                <span class="nav" moozie="commandes">Commandes</span>
+                <a href="https://discord.com/invite/mTDrbTcxUP" target="_blank"><span class="nav" moozie="support">Support</span></a>
             </nav>
             <div class="spacer"></div>
             <nav class="right">
-                <span class="nav">EN</span>
-                <span class="nav">FR</span>
+                <span class="nav" onclick="lang('EN')">EN</span>
+                <span class="nav" onclick="lang('FR')">FR</span>
             </nav>
         </header>
-        <content id="accueil" style="display:none;">
+        <content id="accueil" >
             <div>
                 <img class="face" src="face.png">
                 <span class="name">MOOZIE</span>
@@ -35,7 +35,7 @@
                 </span>
             </div>
         </content>
-        <content id="commandes">
+        <content id="commandes" style="display:none;">
             <div class="commandes">
                 
             </div>
@@ -58,9 +58,10 @@
 
                 $.getJSON($lang + '.json', function(data) {
 
-                    return data;
-
-                    //$( "[moozie=" + + "]" ).html( "REGISTREER JE" );
+                $.each(data['lang'], function(key, value) {
+                    $( "[moozie=" + value['name'] + "]" ).html( value['text'] );
+                });
+                    
                 });
 
             }
