@@ -51,7 +51,7 @@
                 
                 var hash = window.location.hash;
 
-                if(hash.indexOf("#commands")) {
+                if(!hash.indexOf("#commands")) {
                     $('#accueil').css('display', 'none');
                     $('#commandes').css('display', 'block');
                 } else {
