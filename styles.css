@@ -133,3 +133,11 @@ li {
     padding: 20px;
     text-align: left;
 }
+
+li {
+    display: flex;
+}
+
+li b {
+    width: 170px;
+}
