@@ -16,5 +16,15 @@
             "name": "home_description",
             "text": "TRUC MACHIN YOLO IN ENGLISH"
           }
-       ]
+       ],
+    "commands": [
+          {
+            "name": "HELP",
+            "text": "Liste des commandes du bot"
+          },
+          {
+            "name": "CHANNELINFO",
+            "text": "Informations sur le channel"
+          }
+    ]
 }

@@ -39,7 +39,10 @@
         </content>
         <content id="commandes" style="display:none;">
             <div class="commandes">
-                
+                <h2 moozie="commandes"></h2>
+                <ul moozie="list-commandes">
+                    
+                </ul>
             </div>
         </content>
 
@@ -78,13 +81,31 @@
 
                 $.getJSON($lang + '.json', function(data) {
 
-                $.each(data['lang'], function(key, value) {
-                    $( "[moozie=" + value['name'] + "]" ).html( value['text'] );
-                });
-                    
+                    $.each(data['lang'], function(key, value) {
+                        $( "[moozie=" + value['name'] + "]" ).html( value['text'] );
+                    });
+
+                    var html = "";
+
+                    $.each(data['commands'], function(key, value) {
+                        html = html + "<li>" + value['name'] + " > " + value['text'];
+                    });
+
+                    $( "[moozie=list-commandes]" ).html( html );
+
                 });
 
             }
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-06WRFZG6HW"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-06WRFZG6HW');
         </script>
     </body>
 </html>
