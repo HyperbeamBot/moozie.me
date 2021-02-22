@@ -143,12 +143,28 @@
   ],
   "commands_moderation": [
     {
-      "name": "BINGO",
-      "text": ""
+      "name": "ban <mention>",
+      "text": "bannir un membre du serveur"
     },
     {
-      "name": "COVID",
-      "text": ""
+      "name": "kick <mention>",
+      "text": "expulser un membre du serveur"
+    },
+    {
+      "name": "giveaway",
+      "text": "créé un giveaway"
+    },
+    {
+      "name": "antilink",
+      "text": "interdire les liens de d'autres serveur discord"
+    },
+    {
+      "name": "warn <mention> <raison>",
+      "text": "warn un membre"
+    },
+    {
+      "name": "clear <nombres>",
+      "text": "effacer les messages d'un channel"
     }
   ],
   "commands_radio": [
