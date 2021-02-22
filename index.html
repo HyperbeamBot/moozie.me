@@ -79,7 +79,7 @@
                     localStorage.setItem('lang', $lang);
                 }
 
-                $.getJSON($lang + '.json', function(data) {
+                $.getJSON($lang + '.json?cache=' + Math.floor((Math.random() * 100) + 1) + Math.floor((Math.random() * 100) + 1), function(data) {
 
                     $.each(data['lang'], function(key, value) {
                         $( "[moozie=" + value['name'] + "]" ).html( value['text'] );
