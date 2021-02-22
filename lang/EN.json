@@ -2,7 +2,7 @@
   "lang": [
         {
            "name": "commandes",
-           "text": "commandes"
+           "text": "commands"
         },
         {
           "name": "support",
@@ -10,19 +10,19 @@
         },
         {
           "name": "home_button_add",
-          "text": "AJOUTER A DISCORD"
+          "text": "ADD TO DISCORD"
         },
         {
           "name": "home_description",
-          "text": "CREE LE MEILLEUR SERVER DISCORD"
+          "text": "CREATES THE BEST DISCORD SERVER "
         },
         {
           "name": "commands_general",
-          "text": "Général"
+          "text": "General"
         },
         {
           "name": "commands_moderation",
-          "text": "Modération"
+          "text": "Moderation"
         },
         {
           "name": "commands_radio",
@@ -30,7 +30,7 @@
         },
         {
           "name": "commands_economy",
-          "text": "Economie"
+          "text": "Economy"
         },
         {
           "name": "commands_ticket",
@@ -40,197 +40,197 @@
   "commands_general": [
         {
           "name": "help",
-          "text": "liste de commandes du bot"
+          "text": "bot command list"
         },
         {
           "name": "channelinfo",
-          "text": "information sur un channel vocal ou textuels"
+          "text": "information on a voice or text channel"
         },
         {
           "name": "upvote",
-          "text": "Commande pour aller voter pour le bot"
+          "text": "Command to go vote for the bot"
         },
         {
           "name": "support",
-          "text": "Commande pour rejoindre le serveur support"
+          "text": "Command to join the support server"
         },
         {
           "name": "addme",
-          "text": "Commande pour ajouté le bot"
+          "text": "Command to add the bot"
         },
         {
           "name": "avis",
-          "text": "Commande pour donner un avis sur le bot"
+          "text": "Command to give an opinion on the bot"
         },
         {
           "name": "time",
-          "text": "avoir la date et l'heure d'aujourd'hui "
+          "text": "have today's date and time"
         },
         {
           "name": "about",
-          "text": "Informations sur le bot Moozie"
+          "text": "Moozie bot info"
         },
         {
           "name": "link",
-          "text": "commande pour afficher les liens important"
+          "text": "command to show important links"
         },
         {
           "name": "patchnote",
-          "text": "Commande pour avoir le details des patch du bot"
+          "text": "Command for details of bot patches"
         },
         {
           "name": "dev",
-          "text": "information sur le bot et les developper"
+          "text": "bot information and develop it"
         },
         {
           "name": "member",
-          "text": "savoir le nombres de membres sur le serveur"
+          "text": "know the number of members on the server"
         },
         {
           "name": "uptime",
-          "text": "savoir quand le bot a été reboot"
+          "text": "know when the bot was rebooted"
         },
         {
           "name": "welcome [mention]",
-          "text": "souhaiter la bienvenue a un nouveau membre"
+          "text": "welcome a new member"
         }
   ],
   "commands_social": [
   {
-    "name": "bingo [chiffre]",
-    "text": "jeux du juste prix"
+    "name": "bingo [number]",
+    "text": "fair price games"
   },
   {
     "name": "covid",
-    "text": "stats sur le covid"
+    "text": "covid stats"
   },
   {
     "name": "dice",
-    "text": "jeu de dées"
+    "text": "game of dice"
   },
   {
     "name": "apex [pc,console] [pseudo]",
-    "text": "stats du jeux apex legends"
+    "text": "apex legends game stats"
   },
   {
     "name": "space",
-    "text": "photo de l'espace"
+    "text": "space photo"
   },
   {
     "name": "poll",
-    "text": "créé un sondage"
+    "text": "create a poll"
   },
   {
-    "name": "youtube [recherche]",
-    "text": "rechercher une vidéo youtube ou un youtubeur"
+    "name": "youtube [search]",
+    "text": "search for a youtube video or a youtuber"
   },
   {
     "name": "vraioufaux [message]",
-    "text": "jeux du vrai ou faux"
+    "text": "right or wrong games"
   },
   {
     "name": "nasa",
-    "text": "photo de la nasa"
+    "text": "NASA photo"
   },
   {
     "name": "loves [mention]",
-    "text": "test de compatibilié avec une personnnes"
+    "text": "compatibility test with a person"
   },
   {
     "name": "color",
-    "text": "couleur aléatoir"
+    "text": "random color"
   }
 ],
 "commands_moderation": [
   {
     "name": "ban [mention]",
-    "text": "bannir un membre du serveur"
+    "text": "ban a member from the server"
   },
   {
     "name": "kick [mention]",
-    "text": "expulser un membre du serveur"
+    "text": "kick a member from the server"
   },
   {
     "name": "giveaway",
-    "text": "créé un giveaway"
+    "text": "create a giveaway"
   },
   {
     "name": "antilink",
-    "text": "interdire les liens de d'autres serveur discord"
+    "text": "ban links from other discord server"
   },
   {
-    "name": "warn [mention] [raison]",
-    "text": "warn un membre"
+    "name": "warn [mention] [reason]",
+    "text": "warn a member"
   },
   {
-    "name": "clear [nombres]",
-    "text": "effacer les messages d'un channel"
+    "name": "clear [number]",
+    "text": "delete messages from a channel"
   }
 ],
 "commands_radio": [
   {
     "name": "stations",
-    "text": "listes des stations radios"
+    "text": "lists of radio stations"
   },
   {
     "name": "nrj",
-    "text": "radio web nrj (pop rap)"
+    "text": "web radio nrj (pop rap)"
   },
   {
     "name": "radiofg",
-    "text": "radio web radiofg (electro)"
+    "text": "web radio fg radio (electro)"
   },
   {
     "name": "galaxie",
-    "text": "radio web galaxie (pop)"
+    "text": "galaxy web radio (pop)"
   },
   {
     "name": "virgin",
-    "text": "radioweb virgin (pop rap)"
+    "text": "virgin web radio (pop rap)"
   },
   {
     "name": "skyrock",
-    "text": "radio web skyrock (rap)"
+    "text": "web radio skyrock (rap)"
   },
   {
     "name": "funradio",
-    "text": "radio web funradio (pop rap)"
+    "text": "radio web fun radio (pop rap)"
   },
   {
     "name": "mouvradio",
-    "text": "radio web mouvradio (electro pop)"
+    "text": "radio web mov radio (electro pop)"
   },
   {
     "name": "owr",
-    "text": "radio web One world radio (Tommorow-Land)"
+    "text": "web radio One world radio (Tomorrowland)"
   },
   {
     "name": "rva",
-    "text": "radio web rva (pop)"
+    "text": "rva web radio (pop)"
   }
 ],
 "commands_economy": [
   {
-    "name": "removecoin [mention] [montant]",
-    "text": "enlever de l'argent a un membre"
+    "name": "removecoin [mention] [amount]",
+    "text": "take money away from a member"
   },
   {
     "name": "money",
-    "text": "Voir l'argent que vous posséder "
+    "text": "See the money you own"
   },
   {
     "name": "slots",
-    "text": "jeux de casino slots"
+    "text": "casino slots games"
   }
 ],
 "commands_ticket": [
   {
     "name": "ticket",
-    "text": "créé un ticket (que sur le serveur support)"
+    "text": "create a ticket (only on the support server)"
   },
   {
     "name": "close",
-    "text": "fermé votre ticket"
+    "text": "closed your ticket"
   }
 ]
 }
