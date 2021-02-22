@@ -150,3 +150,16 @@ li span:first-letter {
 body {
     margin: 0px;
 }
+
+#commandes .commandes h2 {
+    display: flex;
+}
+
+#commandes .commandes img {
+    width: 40px;
+}
+
+#commandes .commandes moozie {
+    line-height: 40px;
+    margin-left: 10px;
+}
