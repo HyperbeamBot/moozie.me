@@ -142,3 +142,7 @@ li:not(:last-child) {
 li b {
     width: 170px;
 }
+
+li span:first-letter {
+    text-transform: uppercase; 
+}
