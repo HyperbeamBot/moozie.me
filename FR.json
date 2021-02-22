@@ -91,13 +91,13 @@
             "text": "savoir quand le bot a été reboot"
           },
           {
-            "name": "welcome <mention>",
+            "name": "welcome [mention]",
             "text": "souhaiter la bienvenue a un nouveau membre"
           }
     ],
     "commands_social": [
     {
-      "name": "bingo <chiffre>",
+      "name": "bingo [chiffre]",
       "text": "jeux du juste prix"
     },
     {
@@ -109,7 +109,7 @@
       "text": "jeu de dées"
     },
     {
-      "name": "apex <pc,console> <pseudo>",
+      "name": "apex [pc,console] [pseudo]",
       "text": "stats du jeux apex legends"
     },
     {
@@ -121,11 +121,11 @@
       "text": "créé un sondage"
     },
     {
-      "name": "youtube <recherche>",
+      "name": "youtube [recherche]",
       "text": "rechercher une vidéo youtube ou un youtubeur"
     },
     {
-      "name": "vraioufaux <message>",
+      "name": "vraioufaux [message]",
       "text": "jeux du vrai ou faux"
     },
     {
@@ -133,7 +133,7 @@
       "text": "photo de la nasa"
     },
     {
-      "name": "loves <mention>",
+      "name": "loves [mention]",
       "text": "test de compatibilié avec une personnnes"
     },
     {
@@ -143,11 +143,11 @@
   ],
   "commands_moderation": [
     {
-      "name": "ban <mention>",
+      "name": "ban [mention]",
       "text": "bannir un membre du serveur"
     },
     {
-      "name": "kick <mention>",
+      "name": "kick [mention]",
       "text": "expulser un membre du serveur"
     },
     {
@@ -159,11 +159,11 @@
       "text": "interdire les liens de d'autres serveur discord"
     },
     {
-      "name": "warn <mention> <raison>",
+      "name": "warn [mention] [raison]",
       "text": "warn un membre"
     },
     {
-      "name": "clear <nombres>",
+      "name": "clear [nombres]",
       "text": "effacer les messages d'un channel"
     }
   ],

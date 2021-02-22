@@ -196,11 +196,11 @@
 
                     var general = moderation = radio = economy = ticket = "";
 
-                    $.each(data['commands_general'], function(key, value) { general = general + "<li><b>+" + value['name'] + "</b> <span>" + value['text'].replace('<', '&lt;').replace('>', '&gt;') + "</span>" });
-                    $.each(data['commands_moderation'], function(key, value) { moderation = moderation + "<li><b>+" + value['name'] + "</b> <span>" + value['text'].replace('<', '&lt;').replace('>', '&gt;') + "</span>" });
-                    $.each(data['commands_radio'], function(key, value) { radio = radio + "<li><b>+" + value['name'] + "</b> <span>" + value['text'].replace('<', '&lt;').replace('>', '&gt;') + "</span>" });
-                    $.each(data['commands_economy'], function(key, value) { economy = economy + "<li><b>+" + value['name'] + "</b> <span>" + value['text'].replace('<', '&lt;').replace('>', '&gt;') + "</span>" });
-                    $.each(data['commands_ticket'], function(key, value) { ticket = ticket + "<li><b>+" + value['name'] + "</b> <span>" + value['text'].replace('<', '&lt;').replace('>', '&gt;') + "</span>" });
+                    $.each(data['commands_general'], function(key, value) { general = general + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
+                    $.each(data['commands_moderation'], function(key, value) { moderation = moderation + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
+                    $.each(data['commands_radio'], function(key, value) { radio = radio + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
+                    $.each(data['commands_economy'], function(key, value) { economy = economy + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
+                    $.each(data['commands_ticket'], function(key, value) { ticket = ticket + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
 
                     $( "[moozie=list-commandes-general]" ).html( general );
                     $( "[moozie=list-commandes-moderation]" ).html( moderation );
