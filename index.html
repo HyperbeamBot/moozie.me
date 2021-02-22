@@ -12,13 +12,13 @@
         <header>
             <a href="#/"><span class="logo">MOOZIE</span></a>
             <nav>
-                <a href="#commands"><span class="nav" moozie="commandes"></span></a>
+                <a href="#commands"><span class="nav nav-commandes" moozie="commandes"></span></a>
                 <a href="https://discord.com/invite/mTDrbTcxUP" target="_blank"><span class="nav" moozie="support"></span></a>
             </nav>
             <div class="spacer"></div>
             <nav class="right">
-                <span class="nav" onclick="setlang('EN')">EN</span>
-                <span class="nav" onclick="setlang('FR')">FR</span>
+                <span class="nav nav-lang nav-en" onclick="setlang('EN')">EN</span>
+                <span class="nav nav-lang nav-fr" onclick="setlang('FR')">FR</span>
             </nav>
         </header>
         <content id="accueil" >
@@ -80,11 +80,11 @@
                 if(!hash.indexOf("#commands")) {
                     $('#accueil').css('display', 'none');
                     $('#commandes').css('display', 'block');
-                    $('#commandes').css('opacity', '1');
+                    $('.nav-commandes').css('opacity', '1');
                 } else {
                     $('#accueil').css('display', 'block');
                     $('#commandes').css('display', 'none');
-                    $('#commandes').css('opacity', '0.8');
+                    $('.nav-commandes').css('opacity', '0.8');
                 }
 
             }
@@ -123,6 +123,8 @@
                     $( "[moozie=list-commandes-ticket]" ).html( ticket );
                 });
 
+                $(".nav-lang").each(function (index, element) { $(element).css('opacity', '0.8'); });
+                $('.nav-' + $lang.toLowerCase() ).css('opacity', '1');
             }
         </script>
 
