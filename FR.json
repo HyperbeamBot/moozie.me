@@ -16,5 +16,64 @@
             "name": "home_description",
             "text": "TRUC MACHIN YOLO EN FRANCAIS"
           }
-       ]
+       ],
+       "commands_general": [
+             {
+               "name": "HELP",
+               "text": "Liste des commandes du bot"
+             },
+             {
+               "name": "CHANNELINFO",
+               "text": "Informations sur le channel"
+             }
+       ],
+       "commands_social": [
+        {
+          "name": "BINGO",
+          "text": ""
+        },
+        {
+          "name": "COVID",
+          "text": ""
+        }
+      ],
+      "commands_moderation": [
+        {
+          "name": "BINGO",
+          "text": ""
+        },
+        {
+          "name": "COVID",
+          "text": ""
+        }
+      ],
+      "commands_radio": [
+        {
+          "name": "stations",
+          "text": ""
+        },
+        {
+          "name": "nrj",
+          "text": ""
+        }
+      ],
+      "commands_economy": [
+        {
+          "name": "removecoin",
+          "text": ""
+        },
+        {
+          "name": "covid",
+          "text": ""
+        }
+      ],
+      "commands_ticket": [
+        {
+          "name": "ticket",
+          "text": ""
+        },
+        {
+          "name": "close",
+          "text": ""
+        }
 }
