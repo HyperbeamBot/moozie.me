@@ -211,22 +211,26 @@
   ],
   "commands_economy": [
     {
-      "name": "removecoin",
-      "text": ""
+      "name": "removecoin [mention] [montant]",
+      "text": "enlever de l'argent a un membre"
     },
     {
-      "name": "covid",
-      "text": ""
+      "name": "money",
+      "text": "Voir l'argent que vous posséder "
+    },
+    {
+      "name": "slots",
+      "text": "jeux de casino slots"
     }
   ],
   "commands_ticket": [
     {
       "name": "ticket",
-      "text": ""
+      "text": "créé un ticket (que sur le serveur support)"
     },
     {
       "name": "close",
-      "text": ""
+      "text": "fermé votre ticket"
     }
   ]
 }
