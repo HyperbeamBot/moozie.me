@@ -39,9 +39,32 @@
         </content>
         <content id="commandes" style="display:none;">
             <div class="commandes">
-                <h2 moozie="commandes"></h2>
-                <ul moozie="list-commandes">
-                    
+                <h2 moozie="commands_general"></h2>
+                <ul moozie="list-commandes-general">
+                </ul>
+            </div>
+
+            <div class="commandes">
+                <h2 moozie="commands_moderation"></h2>
+                <ul moozie="list-commandes-general">
+                </ul>
+            </div>
+
+            <div class="commandes">
+                <h2 moozie="commands_radio"></h2>
+                <ul moozie="list-commandes-general">
+                </ul>
+            </div>
+
+            <div class="commandes">
+                <h2 moozie="commands_economy"></h2>
+                <ul moozie="list-commandes-general">
+                </ul>
+            </div>
+
+            <div class="commandes">
+                <h2 moozie="commands_ticket"></h2>
+                <ul moozie="list-commandes-general">
                 </ul>
             </div>
         </content>
@@ -91,7 +114,7 @@
                         html = html + "<li>" + value['name'] + " > " + value['text'];
                     });
 
-                    $( "[moozie=list-commandes]" ).html( html );
+                    $( "[moozie=list-commandes-general]" ).html( html );
 
                 });
 

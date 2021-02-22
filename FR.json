@@ -15,6 +15,26 @@
           {
             "name": "home_description",
             "text": "TRUC MACHIN YOLO EN FRANCAIS"
+          },
+          {
+            "name": "commands_general",
+            "text": "Général"
+          },
+          {
+            "name": "commands_moderation",
+            "text": "Modération"
+          },
+          {
+            "name": "commands_radio",
+            "text": "Radio"
+          },
+          {
+            "name": "commands_economy",
+            "text": "Economie"
+          },
+          {
+            "name": "commands_ticket",
+            "text": "Ticket"
           }
        ],
     "commands_general": [
