@@ -39,12 +39,36 @@
        ],
     "commands_general": [
           {
-            "name": "HELP",
-            "text": "Liste des commandes du bot"
+            "name": "help",
+            "text": "liste de commandes du bot"
           },
           {
-            "name": "CHANNELINFO",
-            "text": "Informations sur le channel"
+            "name": "channelinfo",
+            "text": "information sur un channel vocal ou textuels"
+          },
+          {
+            "name": "upvote",
+            "text": "Commande pour aller voter pour le bot"
+          },
+          {
+            "name": "support",
+            "text": "Commande pour rejoindre le serveur support"
+          },
+          {
+            "name": "addme",
+            "text": "Commande pour ajouté le bot"
+          },
+          {
+            "name": "avis",
+            "text": "Commande pour donner un avis sur le bot"
+          },
+          {
+            "name": "time",
+            "text": "avoir la date et l'heure d'aujourd'hui "
+          },
+          {
+            "name": "about",
+            "text": "Informations sur le bot Moozie"
           }
     ],
     "commands_social": [
