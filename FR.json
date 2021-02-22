@@ -97,12 +97,48 @@
     ],
     "commands_social": [
     {
-      "name": "BINGO",
-      "text": ""
+      "name": "bingo <chiffre>",
+      "text": "jeux du juste prix"
     },
     {
-      "name": "COVID",
-      "text": ""
+      "name": "covid",
+      "text": "stats sur le covid"
+    },
+    {
+      "name": "dice",
+      "text": "jeu de dées"
+    },
+    {
+      "name": "apex <pc,console> <pseudo>",
+      "text": "stats du jeux apex legends"
+    },
+    {
+      "name": "space",
+      "text": "photo de l'espace"
+    },
+    {
+      "name": "poll",
+      "text": "créé un sondage"
+    },
+    {
+      "name": "youtube <recherche>",
+      "text": "rechercher une vidéo youtube ou un youtubeur"
+    },
+    {
+      "name": "vraioufaux <message>",
+      "text": "jeux du vrai ou faux"
+    },
+    {
+      "name": "nasa",
+      "text": "photo de la nasa"
+    },
+    {
+      "name": "loves <mention>",
+      "text": "test de compatibilié avec une personnnes"
+    },
+    {
+      "name": "color",
+      "text": "couleur aléatoir"
     }
   ],
   "commands_moderation": [
