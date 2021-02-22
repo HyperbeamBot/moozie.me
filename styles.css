@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    margin: 10px;
+    margin: 10px 18px;
     display: flex;
 }
 
@@ -145,4 +145,8 @@ li b {
 
 li span:first-letter {
     text-transform: uppercase; 
+}
+
+body {
+    margin: 0px;
 }
