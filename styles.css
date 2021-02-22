@@ -122,8 +122,12 @@ ul {
 }
 
 li {
-    border-bottom: solid 2px grey;
+    display: flex;
     padding: 10px;
+}
+
+li:not(:last-child) {
+    border-bottom: solid 2px grey;
 }
 
 .commandes {
@@ -133,10 +137,6 @@ li {
     min-height: 100px;
     padding: 20px;
     text-align: left;
-}
-
-li {
-    display: flex;
 }
 
 li b {
