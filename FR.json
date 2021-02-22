@@ -170,11 +170,43 @@
   "commands_radio": [
     {
       "name": "stations",
-      "text": ""
+      "text": "listes des stations radios"
     },
     {
       "name": "nrj",
-      "text": ""
+      "text": "radio web nrj (pop rap)"
+    },
+    {
+      "name": "radiofg",
+      "text": "radio web radiofg (electro)"
+    },
+    {
+      "name": "galaxie",
+      "text": "radio web galaxie (pop)"
+    },
+    {
+      "name": "virgin",
+      "text": "radioweb virgin (pop rap)"
+    },
+    {
+      "name": "skyrock",
+      "text": "radio web skyrock (rap)"
+    },
+    {
+      "name": "funradio",
+      "text": "radio web funradio (pop rap)"
+    },
+    {
+      "name": "mouvradio",
+      "text": "radio web mouvradio (electro pop)"
+    },
+    {
+      "name": "owr",
+      "text": "radio web One world radio (Tommorow-Land)"
+    },
+    {
+      "name": "rva",
+      "text": "radio web rva (pop)"
     }
   ],
   "commands_economy": [
