@@ -69,6 +69,30 @@
           {
             "name": "about",
             "text": "Informations sur le bot Moozie"
+          },
+          {
+            "name": "link",
+            "text": "commande pour afficher les liens important"
+          },
+          {
+            "name": "patchnote",
+            "text": "Commande pour avoir le details des patch du bot"
+          },
+          {
+            "name": "dev",
+            "text": "information sur le bot et les developper"
+          },
+          {
+            "name": "member",
+            "text": "savoir le nombres de membres sur le serveur"
+          },
+          {
+            "name": "uptime",
+            "text": "savoir quand le bot a été reboot"
+          },
+          {
+            "name": "welcome <mention>",
+            "text": "souhaiter la bienvenue a un nouveau membre"
           }
     ],
     "commands_social": [
