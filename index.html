@@ -46,25 +46,25 @@
 
             <div class="commandes">
                 <h2 moozie="commands_moderation"></h2>
-                <ul moozie="list-commandes-general">
+                <ul moozie="list-commandes-moderation">
                 </ul>
             </div>
 
             <div class="commandes">
                 <h2 moozie="commands_radio"></h2>
-                <ul moozie="list-commandes-general">
+                <ul moozie="list-commandes-radio">
                 </ul>
             </div>
 
             <div class="commandes">
                 <h2 moozie="commands_economy"></h2>
-                <ul moozie="list-commandes-general">
+                <ul moozie="list-commandes-economy">
                 </ul>
             </div>
 
             <div class="commandes">
                 <h2 moozie="commands_ticket"></h2>
-                <ul moozie="list-commandes-general">
+                <ul moozie="list-commandes-ticket">
                 </ul>
             </div>
         </content>
@@ -108,14 +108,29 @@
                         $( "[moozie=" + value['name'] + "]" ).html( value['text'] );
                     });
 
-                    var html = "";
+                    var general = moderation = radio = economy = ticket = "";
 
                     $.each(data['commands_general'], function(key, value) {
-                        html = html + "<li>" + value['name'] + " > " + value['text'];
+                        general = general + "<li>" + value['name'] + " > " + value['text'];
+                    });
+                    $.each(data['commands_moderation'], function(key, value) {
+                        moderation = moderation + "<li>" + value['name'] + " > " + value['text'];
+                    });
+                    $.each(data['commands_radio'], function(key, value) {
+                        radio = radio + "<li>" + value['name'] + " > " + value['text'];
+                    });
+                    $.each(data['commands_economy'], function(key, value) {
+                        economy = economy + "<li>" + value['name'] + " > " + value['text'];
+                    });
+                    $.each(data['commands_ticket'], function(key, value) {
+                        ticket = ticket + "<li>" + value['name'] + " > " + value['text'];
                     });
 
-                    $( "[moozie=list-commandes-general]" ).html( html );
-
+                    $( "[moozie=list-commandes-general]" ).html( general );
+                    $( "[moozie=list-commandes-moderation]" ).html( moderation );
+                    $( "[moozie=list-commandes-radio]" ).html( radio );
+                    $( "[moozie=list-commandes-economy]" ).html( economy );
+                    $( "[moozie=list-commandes-ticket]" ).html( ticket );
                 });
 
             }
