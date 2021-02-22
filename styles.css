@@ -110,9 +110,26 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    margin: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+li {
+    border-bottom: solid 2px grey;
+    padding: 5px;
+}
+
 .commandes {
     background: rgb(42,42,42);
     max-width: 1000px;
     margin: 20px auto;
     min-height: 100px;
+    padding: 20px;
+    text-align: left;
 }
