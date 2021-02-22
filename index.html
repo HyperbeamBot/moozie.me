@@ -104,27 +104,15 @@
 
                 $.getJSON($lang + '.json?cache=' + Math.floor((Math.random() * 100) + 1) + Math.floor((Math.random() * 100) + 1), function(data) {
 
-                    $.each(data['lang'], function(key, value) {
-                        $( "[moozie=" + value['name'] + "]" ).html( value['text'] );
-                    });
+                    $.each(data['lang'], function(key, value) { $( "[moozie=" + value['name'] + "]" ).html( value['text'] );});
 
                     var general = moderation = radio = economy = ticket = "";
 
-                    $.each(data['commands_general'], function(key, value) {
-                        general = general + "<li>" + value['name'] + " > " + value['text'];
-                    });
-                    $.each(data['commands_moderation'], function(key, value) {
-                        moderation = moderation + "<li>" + value['name'] + " > " + value['text'];
-                    });
-                    $.each(data['commands_radio'], function(key, value) {
-                        radio = radio + "<li>" + value['name'] + " > " + value['text'];
-                    });
-                    $.each(data['commands_economy'], function(key, value) {
-                        economy = economy + "<li>" + value['name'] + " > " + value['text'];
-                    });
-                    $.each(data['commands_ticket'], function(key, value) {
-                        ticket = ticket + "<li>" + value['name'] + " > " + value['text'];
-                    });
+                    $.each(data['commands_general'], function(key, value) { general = general + "<li><b>+" + value['name'] + "</b> > " + value['text']; });
+                    $.each(data['commands_moderation'], function(key, value) { moderation = moderation + "<li><b>+" + value['name'] + "</b> > " + value['text']; });
+                    $.each(data['commands_radio'], function(key, value) { radio = radio + "<li><b>+" + value['name'] + "</b> > " + value['text']; });
+                    $.each(data['commands_economy'], function(key, value) { economy = economy + "<li><b>+" + value['name'] + "</b> > " + value['text']; });
+                    $.each(data['commands_ticket'], function(key, value) { ticket = ticket + "<li><b>+" + value['name'] + "</b> > " + value['text']; });
 
                     $( "[moozie=list-commandes-general]" ).html( general );
                     $( "[moozie=list-commandes-moderation]" ).html( moderation );
