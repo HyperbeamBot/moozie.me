@@ -3,6 +3,7 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
         <title>Moozie</title>
         <base href="http://moozie.me/">
+        <link rel="shortcut icon" type="image/png" href="logo_moozie.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
@@ -84,7 +85,7 @@
                 } else {
                     $('#accueil').css('display', 'block');
                     $('#commandes').css('display', 'none');
-                    $('.nav-commandes').css('opacity', '0.8');
+                    $('.nav-commandes').css('opacity', '0.7');
                 }
 
             }
@@ -123,7 +124,7 @@
                     $( "[moozie=list-commandes-ticket]" ).html( ticket );
                 });
 
-                $(".nav-lang").each(function (index, element) { $(element).css('opacity', '0.8'); });
+                $(".nav-lang").each(function (index, element) { $(element).css('opacity', '0.7'); });
                 $('.nav-' + $lang.toLowerCase() ).css('opacity', '1');
             }
         </script>
