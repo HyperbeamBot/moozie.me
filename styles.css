@@ -28,10 +28,11 @@ nav {
     font-weight: 800;
     text-transform: uppercase;
     margin: 0 10px;
+    opacity: 0.8;
 }
 
 .nav:hover {
-    opacity: 0.8;
+    opacity: 1;
     cursor: pointer;
 }
 
