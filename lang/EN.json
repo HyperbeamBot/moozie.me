@@ -51,6 +51,10 @@
           "text": "Command to go vote for the bot"
         },
         {
+          "name": "userid [mention]",
+          "text": "Have the id of a member"
+        },
+        {
           "name": "support",
           "text": "Command to join the support server"
         },
@@ -117,6 +121,10 @@
     "text": "space photo"
   },
   {
+    "name": "wasted [mention]",
+    "text": "wasted membre"
+  },
+  {
     "name": "poll",
     "text": "create a poll"
   },
@@ -153,6 +161,10 @@
   {
     "name": "giveaway",
     "text": "create a giveaway"
+  },
+  {
+    "name": "tempmute [mention] [time]",
+    "text": "mutates a member for a limited time"
   },
   {
     "name": "antilink",
