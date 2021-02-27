@@ -47,6 +47,10 @@
             "text": "information sur un channel vocal ou textuels"
           },
           {
+            "name": "userid [mention]",
+            "text": "Avoir l'id d'un membre"
+          },
+          {
             "name": "upvote",
             "text": "Commande pour aller voter pour le bot"
           },
@@ -117,6 +121,10 @@
       "text": "photo de l'espace"
     },
     {
+      "name": "wasted [mention]",
+      "text": "Image wasted"
+    },
+    {
       "name": "poll",
       "text": "créé un sondage"
     },
@@ -145,6 +153,10 @@
     {
       "name": "ban [mention]",
       "text": "bannir un membre du serveur"
+    },
+    {
+      "name": "tempmute [mention] [temps]",
+      "text": "mute un membre pendant une durée limiter"
     },
     {
       "name": "kick [mention]",
