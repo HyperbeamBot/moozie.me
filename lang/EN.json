@@ -167,6 +167,10 @@
     "text": "mutates a member for a limited time"
   },
   {
+    "name": "addrole [mention] [role]",
+    "text": "add a role to a member"
+  },
+  {
     "name": "antilink",
     "text": "ban links from other discord server"
   },
