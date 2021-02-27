@@ -163,6 +163,10 @@
       "text": "expulser un membre du serveur"
     },
     {
+      "name": "addrole [mention] [role]",
+      "text": "ajouter un role a un membre"
+    },
+    {
       "name": "giveaway",
       "text": "créé un giveaway"
     },
