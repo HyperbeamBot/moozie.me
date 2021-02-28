@@ -95,10 +95,6 @@
           "text": "Command for details of bot patches"
         },
         {
-          "name": "dev",
-          "text": "bot information and develop it"
-        },
-        {
           "name": "member",
           "text": "know the number of members on the server"
         },
