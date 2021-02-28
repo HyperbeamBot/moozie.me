@@ -83,8 +83,16 @@
             "text": "Commande pour avoir le details des patch du bot"
           },
           {
-            "name": "dev",
-            "text": "information sur le bot et les developper"
+            "name": "serverinfo",
+            "text": "information sur le serveur"
+          },
+          {
+            "name": "servers",
+            "text": "Nombre de serveurs"
+          },
+          {
+            "name": "stats",
+            "text": "informations sur un membre"
           },
           {
             "name": "member",
