@@ -75,6 +75,18 @@
           "text": "Moozie bot info"
         },
         {
+          "name": "serverinfo",
+          "text": "server information"
+        },
+        {
+          "name": "stats",
+          "text": "member information"
+        },
+        {
+          "name": "servers",
+          "text": "Number of the servers"
+        },
+        {
           "name": "link",
           "text": "command to show important links"
         },
