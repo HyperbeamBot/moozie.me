@@ -1,228 +1,129 @@
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
-        <title>Moozie</title>
-        <base href="https://moozie.me/">
-        <link rel="shortcut icon" type="image/png" href="/img/logo_moozie.png">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
-        <link href="/css/styles.css" rel="stylesheet">
-        <script src="/js/jquery.min.js"></script>
-    </head>
-    <body onload="setlang();locationHashChanged();">
-        <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" style="position: fixed;left:0;right:0;bottom:-40px;z-index:-20;"><defs></defs><path id="wave" d="" fill="#00a2ff"/></svg>
-        <header>
-            <a href="#/"><span class="logo">MOOZIE</span></a>
-            <nav>
-                <a href="#commands"><span class="nav nav-commandes" moozie="commandes"></span></a>
-                <a href="https://discord.gg/HMqcfUWZwm" target="_blank"><span class="nav" moozie="support"></span></a>
-                <a href="https://top.gg/bot/775091439289237505" target="_blank"><spann class="nav" moozie="vote">VOTE</span></a>
-            </nav>
-            <div class="spacer"></div>
-            <nav class="right">
-                <span class="nav nav-lang nav-en" onclick="setlang('EN')">EN</span>
-                <span class="nav nav-lang nav-fr" onclick="setlang('FR')">FR</span>
-            </nav>
-        </header>
-        <content id="accueil" style="display:none;">
-            <div>
-                <img class="face" src="/img/face.png">
-                <span class="name">MOOZIE</span>
-                <span class="description" moozie="home_description"></span>
-                <a href="https://discord.com/oauth2/authorize?client_id=775091439289237505&scope=bot&permissions=2147483647" target="_blank">
-                    <span class="button">
-                        <div class="buttoncontent">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240" style="fill: white;" class="svg"><path d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"></path><path d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"></path></svg>
-                            <span class="textbutton" moozie="home_button_add"></span>
-                            <div style="clear:both"></div>
-                        </div>
-                    </span>
-                </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/now-ui-kit.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <title>Your bot name</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
+    </button>
+    <img src="assets/BotLogo.svg" width="50" height="50">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Subscribtion</a>
+            </li>
+        </ul>
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Documentation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Commands</a>
+                <a class="dropdown-item" href="#">Tutorials</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Server settings</a>
             </div>
-        </content>
-        <content id="commandes" style="display:none;">
-            <div class="commandes">
-                <h2><img src="/icones/general.png"> <moozie moozie="commands_general"></moozie></h2>
-                <ul class="un" moozie="list-commandes-general">
-                </ul>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        </div>
+        <button class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;">LOGIN</button>
+    </div>
+</nav>
+<div class="heading">
+    <h1 class="display-5 title">It's time to use Bot in your server.</h1>
+    <p class="subtitle">Bot is a multi-purpose bot ready to skill up and boost up your Discord server<br />Also features auto-moderation, administration, music and much more!</p>
+    <a class="btn btn-primary btn-lg" href="#start_link" target="_blank" role="button">Get started</a>
+    <a class="btn btn-secondary btn-lg" href="#server_link" target="_blank" role="button">Add to server</a>
+    <br /><br /><br /><br /><br /><br />
+</div>
+<div class="features">
+    <div class="title">Features of Bot</div>
+    <div class="subtitle">We provide you the best features in Bot!</div>
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Future #1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex ante, mattis vel dapibus vel, tempor facilisis justo. Vivamus dignissim ut nisi eu consequat.</p>
+        </div>
+    </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Future #2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex ante, mattis vel dapibus vel, tempor facilisis justo. Vivamus dignissim ut nisi eu consequat.</p>
             </div>
-
-            <div class="commandes">
-                <h2><img src="/icones/moderation.png"> <moozie moozie="commands_moderation"></moozie></h2>
-                <ul class="deux" moozie="list-commandes-moderation">
-                </ul>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Future #3</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex ante, mattis vel dapibus vel, tempor facilisis justo. Vivamus dignissim ut nisi eu consequat.</p>
             </div>
-
-            <div class="commandes">
-                <h2><img src="/icones/radio.png"> <moozie moozie="commands_radio"></moozie></h2>
-                <ul class="trois" moozie="list-commandes-radio">
-                </ul>
+        </div>
+    </div>
+</div>
+<div class="statistics">
+    <div class="cards">
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">000</h1>
+                <p style="font-weight: bold !important;font-size: 20px !important;">servers</p>
             </div>
-
-            <div class="commandes">
-                <h2><img src="/icones/economy.png"> <moozie moozie="commands_economy"></moozie></h2>
-                <ul class="quatre" moozie="list-commandes-economy">
-                </ul>
+        </div>
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">000</h1>
+                <p style="font-weight: bold !important;font-size: 20px !important;">users</p>
             </div>
-
-            <div class="commandes">
-                <h2><img src="/icones/ticket.png"> <moozie moozie="commands_ticket"></moozie></h2>
-                <ul class="cinq" moozie="list-commandes-ticket">
-                </ul>
+        </div>
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">000</h1>
+                <p style="font-weight: bold !important;font-size: 20px !important;">channels</p>
             </div>
-        </content>
-
-        
-        
-        <script src="/js/TweenMax.min.js"></script>
-        <script src="/js/wavify.js"></script>
-        <script>
-
-                var container = document.body;
-                var width = container.offsetWidth;
-                var height = container.offsetHeight;
-                var wave = document.getElementById('wave');
-
-                var waveWidth = container.offsetWidth;  // Wave SVG width (usually container width)
-                var waveHeight = 800;                   // Position from the top of container
-                var waveDelta = 40;                     // Wave amplitude
-                var speed = 0.4;                        // Wave animation speed
-                var wavePoints = 6;                     // How many point will be used to compute our wave
-
-                var points = [];
-
-                function calculateWavePoints(factor) {
-                var points = [];
-                
-                for (var i = 0; i <= wavePoints; i++) {
-                    var x = i/wavePoints * waveWidth;
-                    var sinSeed = (factor + (i + i % wavePoints)) * speed * 100;
-                    var sinHeight = Math.sin(sinSeed / 100) * waveDelta;
-                    var yPos = Math.sin(sinSeed / 100) * sinHeight  + waveHeight;
-                    points.push({x: x, y: yPos});
-                }
-
-                return points;
-                }
-
-                function buildPath(points) {
-                var SVGString = 'M ' + points[0].x + ' ' + points[0].y;
-
-                var cp0 = {
-                    x: (points[1].x - points[0].x) / 2,
-                    y: (points[1].y - points[0].y) + points[0].y + (points[1].y - points[0].y)
-                };
-
-                SVGString += ' C ' + cp0.x + ' ' + cp0.y + ' ' + cp0.x + ' ' + cp0.y + ' ' + points[1].x + ' ' + points[1].y;
-
-                var prevCp = cp0;
-                var inverted = -1;
-
-                for (var i = 1; i < points.length-1; i++) {
-                    var cpLength = Math.sqrt(prevCp.x * prevCp.x + prevCp.y * prevCp.y);
-                    var cp1 = {
-                    x: (points[i].x - prevCp.x) + points[i].x,
-                    y: (points[i].y - prevCp.y) + points[i].y
-                    };
-
-                    SVGString += ' C ' + cp1.x + ' ' + cp1.y + ' ' + cp1.x + ' ' + cp1.y + ' ' + points[i+1].x + ' ' + points[i+1].y;
-                    prevCp = cp1;
-                    inverted = -inverted;
-                };
-
-                SVGString += ' L ' + width + ' ' + height;
-                SVGString += ' L 0 ' + height + ' Z';
-                return SVGString;
-                }
-
-                var lastUpdate;
-                var totalTime = 0;
-
-                function tick() {
-                var now = window.Date.now();
-
-                if (lastUpdate) {
-                    var elapsed = (now-lastUpdate) / 1000;
-                    lastUpdate = now;
-
-                    totalTime += elapsed;
-                    
-                    var factor = totalTime*Math.PI;
-                    wave.setAttribute('d', buildPath(calculateWavePoints(factor)));
-                } else {
-                    lastUpdate = now;
-                }
-                
-                window.requestAnimationFrame(tick);
-                };
-                tick();
-            
-
-            window.onhashchange = locationHashChanged;
-
-            function locationHashChanged() {
-                
-                var hash = window.location.hash;
-
-                if(!hash.indexOf("#commands")) {
-                    $('#accueil').css('display', 'none');
-                    $('#commandes').css('display', 'block');
-                    $('.nav-commandes').css('opacity', '1');
-                } else {
-                    $('#accueil').css('display', 'block');
-                    $('#commandes').css('display', 'none');
-                    $('.nav-commandes').css('opacity', '0.7');
-                }
-
-            }
-
-            function setlang($lang = "") {
-
-                var current = localStorage.getItem('lang');
-
-                if(!$lang) {
-                    if(current) {
-                        $lang = localStorage.getItem('lang');
-                    } else if(!$lang && !current) {
-                        $lang = "EN";
-                        localStorage.setItem('lang', "EN");
-                    }
-                } else {
-                    localStorage.setItem('lang', $lang);
-                }
-
-                $.getJSON('/lang/' + $lang + '.json?cache=' + Math.floor((Math.random() * 100) + 1) + Math.floor((Math.random() * 100) + 1), function(data) {
-
-                    $.each(data['lang'], function(key, value) { $( "[moozie=" + value['name'] + "]" ).html( value['text'] );});
-
-                    var general = moderation = radio = economy = ticket = "";
-
-                    $.each(data['commands_general'], function(key, value) { general = general + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
-                    $.each(data['commands_moderation'], function(key, value) { moderation = moderation + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
-                    $.each(data['commands_radio'], function(key, value) { radio = radio + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
-                    $.each(data['commands_economy'], function(key, value) { economy = economy + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
-                    $.each(data['commands_ticket'], function(key, value) { ticket = ticket + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
-
-                    $( "[moozie=list-commandes-general]" ).html( general );
-                    $( "[moozie=list-commandes-moderation]" ).html( moderation );
-                    $( "[moozie=list-commandes-radio]" ).html( radio );
-                    $( "[moozie=list-commandes-economy]" ).html( economy );
-                    $( "[moozie=list-commandes-ticket]" ).html( ticket );
-                });
-
-                $(".nav-lang").each(function (index, element) { $(element).css('opacity', '0.7'); });
-                $('.nav-' + $lang.toLowerCase() ).css('opacity', '1');
-            }
-        </script>
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-06WRFZG6HW"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-06WRFZG6HW');
-        </script>
-    </body>
+        </div>
+    </div>
+</div>
+<div class="page_end">
+    <div class="start">
+        <div class="card">
+            <div class="card-body gs-card">
+                <div class="title">Ready to try Bot?</div>
+                <div class="subtitle">Invite Bot and start giving your server cool perks!</div>
+                <br />
+                <a class="btn btn-primary btn-lg" href="#start_link" role="button">Get started</a>
+            </div><br />
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bot-footer">
+            <img src="assets/BotLogoWord.svg" width="150"><br />
+            Copyright © [BotOwner] - 2020
+        </div><br/>
+        <div class="nouridio">website designed by <a href="https://nouridio.com"> nouridio</a></div>
+    </di
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/now-ui-kit.min.js"></script>
+</body>
 </html>
