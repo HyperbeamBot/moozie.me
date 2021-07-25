@@ -246,6 +246,14 @@
   {
     "name": "addcoin [mention] [amount]",
     "text": "add money to a member"
+  },
+  {
+    "name": "bingo [number]",
+    "text": "fair price games"
+  },
+  {
+    "name": "dice",
+    "text": "game of dice"
   }
 ],
 
