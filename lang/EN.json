@@ -171,20 +171,20 @@
     "text": "kick a member from the server"
   },
   {
-    "name": "giveaway",
-    "text": "create a giveaway"
+    "name": "unmute",
+    "text": "unmute a member"
   },
   {
-    "name": "tempmute [mention] [time]",
-    "text": "mutates a member for a limited time"
+    "name": "mute [mention] ",
+    "text": "mutates a member"
   },
   {
     "name": "addrole [mention] [role]",
     "text": "add a role to a member"
   },
   {
-    "name": "antilink",
-    "text": "ban links from other discord server"
+    "name": "clearwarns [mention]",
+    "text": "clear warns of member"
   },
   {
     "name": "warn [mention] [reason]",
@@ -193,6 +193,14 @@
   {
     "name": "clear [number]",
     "text": "delete messages from a channel"
+  },
+  {
+    "name": "warnlevel [mention]",
+    "text": "number of warn of a member"
+  },
+  {
+    "name": "slow [second]",
+    "text": "slow mode channel"
   }
 ],
 "commands_radio": [
