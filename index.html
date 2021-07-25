@@ -204,14 +204,12 @@
                     $.each(data['commands_general'], function(key, value) { general = general + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
                     $.each(data['commands_moderation'], function(key, value) { moderation = moderation + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
                     $.each(data['commands_radio'], function(key, value) { radio = radio + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
-                    $.each(data['commands_level'], function(key, value) { level = level + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
                     $.each(data['commands_economy'], function(key, value) { economy = economy + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
                     $.each(data['commands_ticket'], function(key, value) { ticket = ticket + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
 
                     $( "[moozie=list-commandes-general]" ).html( general );
                     $( "[moozie=list-commandes-moderation]" ).html( moderation );
                     $( "[moozie=list-commandes-radio]" ).html( radio );
-                    $( "[moozie=list-commandes-level]" ).html( level );
                     $( "[moozie=list-commandes-economy]" ).html( economy );
                     $( "[moozie=list-commandes-ticket]" ).html( ticket );
                 });
