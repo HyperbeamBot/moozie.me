@@ -242,17 +242,6 @@
   }
 ],
 
-"commands_level": [
-  {
-    "name": "rank",
-    "text": "display your XP numbers and your rank"
-  },
-  {
-    "name": "leaderboard",
-    "text": "show top XP members"
-  }
-],
-
 "commands_economy": [
   {
     "name": "removecoin [mention] [amount]",
