@@ -205,20 +205,12 @@
 ],
 "commands_radio": [
   {
-    "name": "stations",
-    "text": "lists of radio stations"
-  },
-  {
     "name": "nrj",
     "text": "web radio nrj (pop rap)"
   },
   {
-    "name": "radiofg",
-    "text": "web radio fg radio (electro)"
-  },
-  {
-    "name": "galaxie",
-    "text": "galaxy web radio (pop)"
+    "name": "ncs",
+    "text": "Nocopyright Sound web radio (pop)"
   },
   {
     "name": "virgin",
@@ -233,16 +225,8 @@
     "text": "radio web fun radio (pop rap)"
   },
   {
-    "name": "mouvradio",
-    "text": "radio web mov radio (electro pop)"
-  },
-  {
     "name": "owr",
     "text": "web radio One world radio (Tomorrowland)"
-  },
-  {
-    "name": "rva",
-    "text": "rva web radio (pop)"
   }
 ],
 
@@ -258,6 +242,10 @@
   {
     "name": "slots",
     "text": "casino slots games"
+  },
+  {
+    "name": "addcoin",
+    "text": "add money to a member"
   }
 ],
 
