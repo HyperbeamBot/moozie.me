@@ -113,52 +113,64 @@
   ],
   "commands_social": [
   {
-    "name": "bingo [number]",
-    "text": "fair price games"
-  },
-  {
     "name": "covid",
     "text": "covid stats"
-  },
-  {
-    "name": "dice",
-    "text": "game of dice"
-  },
-  {
-    "name": "apex [pc,console] [pseudo]",
-    "text": "apex legends game stats"
-  },
-  {
-    "name": "space",
-    "text": "space photo"
-  },
-  {
-    "name": "wasted [mention]",
-    "text": "wasted membre"
-  },
-  {
-    "name": "poll",
-    "text": "create a poll"
-  },
-  {
-    "name": "youtube [search]",
-    "text": "search for a youtube video or a youtuber"
-  },
-  {
-    "name": "vraioufaux [message]",
-    "text": "right or wrong games"
-  },
-  {
-    "name": "nasa",
-    "text": "NASA photo"
   },
   {
     "name": "loves [mention]",
     "text": "compatibility test with a person"
   },
   {
-    "name": "color",
+    "name": "randomcolor",
     "text": "random color"
+  },
+  {
+    "name": "joke",
+    "text": "dad joke"
+  },
+  {
+    "name": "morpion [mention]",
+    "text": "morpion games"
+  },
+  {
+    "name": "fight [mention]",
+    "text": "fight member"
+  },
+  {
+    "name": "quiz",
+    "text": "quiz games"
+  },
+  {
+    "name": "emojify",
+    "text": "text emojify"
+  },
+  {
+    "name": "eject [mention]",
+    "text": "fake eject member"
+  },
+  {
+    "name": "kiss [mention]",
+    "text": "kiss member"
+  },
+  {
+    "name": "iq",
+    "text": "iq member"
+  },
+  {
+    "name": "neko",
+    "text": "random neko picture"
+  },
+  {
+    "name": "poke [mention]",
+    "text": "poke member"
+  },
+  {
+    "name": "slap [mention]",
+    "text": "slap member"
+  },
+  {
+    "name": "smack [mention]",
+    "text": "smack member"
   }
 ],
 "commands_moderation": [
