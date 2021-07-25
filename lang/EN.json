@@ -14,7 +14,11 @@
         },
         {
           "name": "home_description",
-          "text": "CREATES THE BEST DISCORD SERVER "
+          "text": "Create the best Discord server!"
+        },
+        {
+          "name": "home_description_bis",
+          "text": "Moozie is an easy to use and efficient robot.<br>Have fun with moozie and moderate your server!"
         },
         {
           "name": "commands_general",
