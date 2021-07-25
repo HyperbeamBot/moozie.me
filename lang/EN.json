@@ -33,6 +33,10 @@
           "text": "Radio"
         },
         {
+          "name": "commands_level",
+          "text": "Level"
+        },
+        {
           "name": "commands_economy",
           "text": "Economy"
         },
@@ -235,6 +239,16 @@
   {
     "name": "rva",
     "text": "rva web radio (pop)"
+  }
+],
+"commands_level": [
+  {
+    "name": "rank",
+    "text": "display your XP numbers and your rank"
+  },
+  {
+    "name": "leaderboard",
+    "text": "show top XP members"
   }
 ],
 "commands_economy": [
