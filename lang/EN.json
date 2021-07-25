@@ -47,68 +47,68 @@
           "text": "bot command list"
         },
         {
-          "name": "channelinfo",
-          "text": "information on a voice or text channel"
-        },
-        {
-          "name": "upvote",
-          "text": "Command to go vote for the bot"
-        },
-        {
-          "name": "userid [mention]",
-          "text": "Have the id of a member"
-        },
-        {
-          "name": "support",
-          "text": "Command to join the support server"
-        },
-        {
-          "name": "addme",
-          "text": "Command to add the bot"
-        },
-        {
-          "name": "avis",
-          "text": "Command to give an opinion on the bot"
-        },
-        {
-          "name": "time",
-          "text": "have today's date and time"
-        },
-        {
-          "name": "about",
-          "text": "Moozie bot info"
-        },
-        {
-          "name": "serverinfo",
-          "text": "server information"
-        },
-        {
-          "name": "stats",
-          "text": "member information"
-        },
-        {
-          "name": "servers",
-          "text": "Number of the servers"
-        },
-        {
-          "name": "link",
-          "text": "command to show important links"
-        },
-        {
-          "name": "patchnote",
-          "text": "Command for details of bot patches"
-        },
-        {
-          "name": "member",
-          "text": "know the number of members on the server"
+          "name": "ping",
+          "text": "Latency information"
         },
         {
           "name": "uptime",
           "text": "know when the bot was rebooted"
         },
         {
-          "name": "welcome [mention]",
-          "text": "welcome a new member"
+          "name": "github [mention]",
+          "text": "Github profile of a member"
+        },
+        {
+          "name": "country [country]",
+          "text": "Country information"
+        },
+        {
+          "name": "calc [calculated]",
+          "text": "bot calculator"
+        },
+        {
+          "name": "npm [module]",
+          "text": "information about npm modules"
+        },
+        {
+          "name": "wiki [message]",
+          "text": "Information wikipedia"
+        },
+        {
+          "name": "profile",
+          "text": "member information"
+        },
+        {
+          "name": "server",
+          "text": "server information"
+        },
+        {
+          "name": "suggest [idea]",
+          "text": "suggest idea for a bot"
+        },
+        {
+          "name": "avis [feedback]",
+          "text": "give an opinion on the bot"
+        },
+        {
+          "name": "invite",
+          "text": "add bot link and support invite"
+        },
+        {
+          "name": "avatar [mention]",
+          "text": "avatar profile member"
+        },
+        {
+          "name": "bug [message]",
+          "text": "report bug"
+        },
+        {
+          "name": "weather [city]",
+          "text": "weather report"
+        },
+        {
+          "name": "member",
+          "text": "number of the membre in server"
         }
   ],
   "commands_social": [
