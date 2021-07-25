@@ -257,6 +257,14 @@
   {
     "name": "close",
     "text": "closed your ticket"
+  },
+  {
+    "name": "delete",
+    "text": "delete ticket of member"
+  },
+  {
+    "name": "transcript",
+    "text": "logs of your ticket"
   }
 ]
 }
