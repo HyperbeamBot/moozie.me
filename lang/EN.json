@@ -39,6 +39,14 @@
         {
           "name": "commands_ticket",
           "text": "Ticket"
+        },
+        {
+          "name": "commands_level",
+          "text": "Level"
+        },
+        {
+          "name": "commands_picutre",
+          "text": "Picture"
         }
      ],
   "commands_general": [
@@ -285,6 +293,36 @@
   {
     "name": "transcript",
     "text": "logs of your ticket"
+  }
+],
+
+"commands_level": [
+  {
+    "name": "rank",
+    "text": "profile to see your rank and XP number"
+  },
+  {
+    "name": "leaderboard",
+    "text": "top 10 ranking member"
+  }
+],
+
+"commands_picture": [
+  {
+    "name": "dog",
+    "text": "random dog picture"
+  },
+  {
+    "name": "cat",
+    "text": "random cat picture"
+  },
+  {
+    "name": "shib",
+    "text": "rondom shiba picture"
+  },
+  {
+    "name": "nasa",
+    "text": "random nasa picture"
   }
 ]
 }
