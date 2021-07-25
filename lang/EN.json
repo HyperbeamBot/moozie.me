@@ -33,10 +33,6 @@
           "text": "Radio"
         },
         {
-          "name": "commands_level",
-          "text": "Level"
-        },
-        {
           "name": "commands_economy",
           "text": "Economy"
         },
