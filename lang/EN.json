@@ -45,7 +45,7 @@
           "text": "Level"
         },
         {
-          "name": "commands_picutre",
+          "name": "commands_picture",
           "text": "Picture"
         }
      ],
@@ -318,7 +318,7 @@
   },
   {
     "name": "shib",
-    "text": "rondom shiba picture"
+    "text": "random shiba picture"
   },
   {
     "name": "nasa",
