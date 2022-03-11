@@ -50,12 +50,12 @@ nav {
 }
 
 .right {
-    text-align: left;
+    text-align: right;
 }
 
 content {
     display: block;
-    text-align: left;
+    text-align: center;
     margin-top: 5%;
 }
 
