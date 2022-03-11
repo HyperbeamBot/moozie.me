@@ -148,7 +148,7 @@ li:not(:last-child) {
 }
 
 .commandes {
-    background: rgb(17 18 21);
+    background: rgb(29 32 51);
     max-width: 1000px;
     margin: 20px auto;
     min-height: 100px;
