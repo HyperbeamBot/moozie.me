@@ -3,8 +3,11 @@
 }
 
 body {
-    background: #1d2033;
-}
+    color:black;
+    background-color:white;
+    background-image:url(/img/hyperbeamfd.png);
+    margin:0;
+    }
 
 header {
     margin: 22px 22px 22px 22px;
