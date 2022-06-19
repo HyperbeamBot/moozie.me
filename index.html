@@ -54,8 +54,8 @@
         </content>
         <content id="commandes" style="display:none;">
             <div class="commandes">
-                <h2><img src="/icones/general.png"> <moozie moozie="commands_general"></moozie></h2>
-                <ul class="un" moozie="list-commandes-general">
+                <h2><img src="/icones/music.png"> <moozie moozie="commands_help"></moozie></h2>
+                <ul class="un" moozie="list-commandes-help">
                 </ul>
             </div>
     
@@ -93,9 +93,9 @@
 
                     var general = moderation = radio = level = economy = ticket = level = picture = "";
 
-                    $.each(data['commands_general'], function(key, value) { general = general + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
+                    $.each(data['commands_help'], function(key, value) { general = general + "<li><b>+" + value['name'] + "</b> <span>" + value['text'] + "</span>" });
 
-                    $( "[moozie=list-commandes-general]" ).html( general );
+                    $( "[moozie=list-commandes-help]" ).html( general );
 
                 });
 
