@@ -27,72 +27,92 @@
      ],
   "commands_general": [
         {
-          "name": "help",
-          "text": "bot command list"
+          "name": "+clip",
+          "text": "Liste tous les clips"
         },
         {
-          "name": "ping",
-          "text": "Latency information"
+          "name": "+help (h)",
+          "text": "Afficher toutes les commandes et leurs descriptions"
         },
         {
-          "name": "uptime",
-          "text": "know when the bot was rebooted"
+          "name": "+invite",
+          "text": "Envoie le lien d'invitation du bot"
         },
         {
-          "name": "github [mention]",
-          "text": "Github profile of a member"
+          "name": "+loop (l)",
+          "text": "Mettre la musique en boucle"
         },
         {
-          "name": "country [country]",
-          "text": "Country information"
+          "name": "+lyrics (ly)",
+          "text": "Obtenir les paroles de la chanson en cours de lecture"
         },
         {
-          "name": "calc [calculated]",
-          "text": "bot calculator"
+          "name": "+move (mv)",
+          "text": "Déplacez les chansons de la file d'attente"
         },
         {
-          "name": "npm [module]",
-          "text": "information about npm modules"
+          "name": "+np",
+          "text": "Afficher la chanson en cours de lecture"
         },
         {
-          "name": "wiki [message]",
-          "text": "Information wikipedia"
+          "name": "+pause",
+          "text": "Mettre en pause la musique en cours de lecture"
         },
         {
-          "name": "profile",
-          "text": "member information"
+          "name": "+ping",
+          "text": "Afficher le ping du bot"
         },
         {
-          "name": "server",
-          "text": "server information"
+          "name": "+play (p)",
+          "text": "Écoute de la musique depuis YouTube ou SoundCloud"
         },
         {
-          "name": "suggest [idea]",
-          "text": "suggest idea for a bot"
+          "name": "+playlist (pl)",
+          "text": "Écoute une playlist venant de YouTube"
         },
         {
-          "name": "avis [feedback]",
-          "text": "give an opinion on the bot"
+          "name": "+pruning",
+          "text": "Possibilité de supprimer les messages du bot"
         },
         {
-          "name": "invite",
-          "text": "add bot link and support invite"
+          "name": "+queue (q)",
+          "text": "Afficher la file d'attente et la musique en cours de lecture."
         },
         {
-          "name": "avatar [mention]",
-          "text": "avatar profile member"
+          "name": "+remove (rm)",
+          "text": "Supprimer la chanson de la file d'attente"
         },
         {
-          "name": "bug [message]",
-          "text": "report bug"
+          "name": "+resume (r)",
+          "text": "Reprendre la lecture de la musique en cours"
         },
         {
-          "name": "weather [city]",
-          "text": "weather report"
+          "name": "+search",
+          "text": "Recherchez et sélectionnez des vidéos à écouter"
         },
         {
-          "name": "member",
-          "text": "number of the membre in server"
+          "name": "+shuffle",
+          "text": "Mélange la file d'attentre"
+        },
+        {
+          "name": "+skip (s)",
+          "text": "Skip la musique en cours de lecture"
+        },
+        {
+          "name": "+skipto (st)",
+          "text": "Passer au numéro de file d'attente sélectionné"
+        },
+        {
+          "name": "+stop",
+          "text": "Arrête la musique"
+        },
+        {
+          "name": "+uptime (up)",
+          "text": "Vérifiez le uptime du bot"
+        },
+        {
+          "name": "+volume (v)",
+          "text": "Changer le volume de la musique en cours de lecture"
         }
 ]
 }
