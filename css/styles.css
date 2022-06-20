@@ -5,7 +5,8 @@
 body {
     color:black;
     background-color:white;
-    background-image:url(/img/hyperbeamfd.png);
+    background: url(/img/hyperbeamfd.png) no-repeat;
+    background-size: cover;
     margin:0;
     }
 
